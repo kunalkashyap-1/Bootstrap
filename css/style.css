@@ -1,5 +1,15 @@
-.some{
-    background-image:url(https://s.tmimgcdn.com/scr/1600x1000/125200/sport-center-club-illustration_125248-original.jpg);
+#title {
+    background-image: url(https://s.tmimgcdn.com/scr/1600x1000/125200/sport-center-club-illustration_125248-original.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.title-img {
+    width: 20rem;
+}
+
+h1 {
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
 }
