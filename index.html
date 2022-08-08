@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <title>site-bootstrap</title>
+
+    <!-- Custom style addons-->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <section class="some" id="title">
+      <!-- Nav Bar -->
+      <!--Bootstrap for navigation bar in row form for large screen size-->
+
+      <nav class="navbar navbar-expand-lg bg-transparent">
+        <!-- For Brand name and style of it-->
+        <a class="nav-link navbar-brand" href="#brand">
+          Supreme GYM</a
+        >
+
+        <!--button for collapsing the nav bar in a drop down format in mobile view -->
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapse_id"
+          aria-controls="collapse_id"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--The content to be collapsed and id that we provide above-->
+
+        <div class="collapse navbar-collapse" id="collapse_id">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials"
+                >Testimonials</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#press">Press</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Title -->
+
+      <div>
+        <h1>Meet new and interesting people nearby.</h1>
+        <button type="button">Download</button>
+      </div>
+      <div>
+        <img src="css/images/chris.png" alt="4:3 image" />
+      </div>
+    </section>
+
+    <!-- Features -->
+
+    <section id="features">
+      <h3>Guided Traning.</h3>
+      <p>
+        consectetur adipiscing elit. Nullam at tellus at enim malesuada varius
+      </p>
+
+      <h3>sed felis porttitor</h3>
+      <p>We have all the dogs, the greatest dogs.</p>
+
+      <h3>Nullam at tellus.</h3>
+      <p>Grow big Grow eternal.</p>
+    </section>
+
+    <!-- Testimonials -->
+
+    <section id="testimonials">
+      <h2>
+        Nulla consectetur orci luctus, pellentesque felis nec, pellentesque
+        arcu. Mauris feugiat pharetra ligula, a cursus libero lacinia et. In hac
+        habitasse platea dictumst. In ullamcorper, est vel sagittis mattis
+      </h2>
+      <img src="css/images/testimonial.webp" alt="precaution pic" />
+      <em>Pebbles, New York</em>
+    </section>
+
+    <!-- Press -->
+
+    <section id="press">
+      <img src="css/images/TechCrunch.png" alt="tc-logo" />
+      <img src="css/images/tnw.png" alt="tnw-logo" />
+      <img src="css/images/bizinsider.png" alt="biz-insider-logo" />
+      <img src="css/images/mashable.png" alt="mashable-logo" />
+    </section>
+
+    <!-- Pricing -->
+
+    <section id="pricing">
+      <h2>A Plan for Every one's Needs</h2>
+      <p>Simple and affordable price plans for you and your Health.</p>
+
+      <h3>Trail Week</h3>
+      <h2>Free</h2>
+      <p>2 Hours per day</p>
+      <p>10 Equipment Per Day</p>
+      <p>Either Morning or evening usage</p>
+      <button type="button">Try</button>
+
+      <h3>Basic</h3>
+      <h2>$49 / mo</h2>
+      <p>Unlimited Hours</p>
+      <p>Unlimited Equipment</p>
+      <p>No Time limitation</p>
+      <button type="button">Sign Up</button>
+
+      <h3>Premium</h3>
+      <h2>$99 / mo</h2>
+      <p>Pirority Customer</p>
+      <p>Unlimited Hours</p>
+      <p>Unlimited Equipments</p>
+      <p>No Time Limitation</p>
+      <button type="button">Sign Up</button>
+    </section>
+
+    <!-- Call to Action -->
+
+    <section id="cta">
+      <h3>Sed volutpat tellus massa.</h3>
+      <button type="button">Download</button>
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="footer">
+      <p>© Copyright Supreme GYM</p>
+    </footer>
+  </body>
+</html>
