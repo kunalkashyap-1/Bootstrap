@@ -1,15 +1,60 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 #title {
     background-image: url(https://s.tmimgcdn.com/scr/1600x1000/125200/sport-center-club-illustration_125248-original.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    color: white;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-weight: bold;
+}
+
+#press>img:hover {
+    transition: ease-out 300ms;
+    transform: scale(0.85);
+    cursor: pointer;
+}
+
+.container-fluid {
+    padding: 3% 15% 0 15%;
 }
 
 .title-img {
     width: 20rem;
 }
 
-h1 {
-    font-family: 'Montserrat-black', sans-serif;
-    font-size: 3rem;
-    line-height: 1.5;
+#testimonials{
+    background-color: #E7AB79;
+}
+
+#features{
+    padding: 7% 15%;
+}
+
+.h2_custom{
+    padding: 2rem;
+}
+
+#features > .row{
+    padding: 5%;
+}
+
+.target_custom{
+    margin: 10px;
+    width: 50px;
 }
