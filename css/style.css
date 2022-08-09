@@ -1,12 +1,3 @@
-body {
-    font-family: 'Montserrat', sans-serif;
-    overflow-x:hidden;
-}
-
-::-webkit-scrollbar-track{
-    display: none;
-}
-
 @media (max-width:900px){
     .title-img{
         display: none;
@@ -17,17 +8,9 @@ body {
     }
 }
 
-#title {
-    background-image: url(https://s.tmimgcdn.com/scr/1600x1000/125200/sport-center-club-illustration_125248-original.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
-}
-
-.navbar-brand {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 2rem;
-    font-weight: bold;
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x:hidden;
 }
 
 h1 {
@@ -39,10 +22,46 @@ h3{
     font-weight: bold;
 }
 
+#testimonials{
+    padding: 2rem 0 2rem 0;
+    background-color: #F0EABE;
+}
+
+#title {
+    background-image: url(https://s.tmimgcdn.com/scr/1600x1000/125200/sport-center-club-illustration_125248-original.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
 #press>img:hover {
     transition:ease-out 300ms;
     transform: scale(0.85);
     cursor: pointer;
+}
+
+#features{
+    background-color: #FF87B2;
+    padding: 7% 15%;
+}
+
+#features > .row{
+    padding: 5%;
+}
+
+#pricing{
+    padding: 7% 14%;
+    background-color: #FFF8BC;
+}
+
+#footer{
+    margin-top: 5px;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .container-fluid {
@@ -53,28 +72,14 @@ h3{
     width: 20rem;
 }
 
-#testimonials{
-    padding: 2rem 0 2rem 0;
-    background-color: #F0EABE;
-}
-
 .test-img{
     position: relative;
-    margin-left: 150px;
+    margin-left: 9.375rem;
     width:17rem;
-}
-
-#features{
-    background-color: #FF87B2;
-    padding: 7% 15%;
 }
 
 .h2_custom{
     padding: 2rem;
-}
-
-#features > .row{
-    padding: 5%;
 }
 
 .target_custom{
@@ -86,17 +91,8 @@ h3{
     padding: 3rem;
 }
 
-
 .press{
     background-color: #F0EABE;
     padding: 3rem;
 }
 
-#pricing{
-    padding: 7% 14%;
-    background-color: #FFF8BC;
-}
-
-#footer{
-    margin-top: 5px;
-}
