@@ -25,7 +25,7 @@ h3{
 }
 
 #press>img:hover {
-    transition: ease-out 300ms;
+    transition:ease-out 300ms;
     transform: scale(0.85);
     cursor: pointer;
 }
@@ -39,10 +39,18 @@ h3{
 }
 
 #testimonials{
-    background-color: #E7AB79;
+    padding: 2rem 0 2rem 0;
+    background-color: #F0EABE;
+}
+
+.test-img{
+    position: relative;
+    margin-left: 150px;
+    width:17rem;
 }
 
 #features{
+    background-color: #FF87B2;
     padding: 7% 15%;
 }
 
@@ -57,4 +65,19 @@ h3{
 .target_custom{
     margin: 10px;
     width: 50px;
+}
+
+.press > img{
+    padding: 3rem;
+}
+
+
+.press{
+    background-color: #F0EABE;
+    padding: 3rem;
+}
+
+#pricing{
+    padding: 7% 14%;
+    background-color: #FFF8BC;
 }
